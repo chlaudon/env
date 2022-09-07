@@ -1,3 +1,6 @@
+# Install Powerline fonts
+https://logfetch.com/wsl2-install-powerline/
+
 # WSL only
 
 Open anything from wsl terminal as if it was double clicked in windows, even opening current dir in explorer (i.e. `start .`)
@@ -15,4 +18,4 @@ Example: pretty-print all XML files in a folder and place beautified versions in
 ```
 mkdir formatted; ls -1 *fr.xml | xargs -l bash -c 'xmllint --format $0 > formatted/$0.xml'
 ```
-
+ 
